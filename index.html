@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>MM-dash-2</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Manifesting Melodies Dashboard</title>
+</head>
+<body>
+  <div class="dashboard-container">
+    <!-- Header -->
+    <div class="dashboard-header">
+      <div class="logo">
+        <div class="logo-icon">🎧</div>
+        <div class="logo-info">
+          <h1>Manifesting Melodies Dashboard</h1>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat-badge">
+          <span class="pulse-dot"></span>
+          <span id="active-listeners">17,290</span> &nbsp;Listening now
+        </div>
+      </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="dashboard-content">
+      <!-- Melody Panel -->
+      <div class="panel melody-panel">
+        <h2 class="panel-title"><span class="icon">🎵</span> Melody</h2>
+        
+        <div class="melody-item">
+          <div class="melody-info">
+            <div class="melody-icon">🎧</div>
+            <div class="melody-details">
+              <div class="melody-title">60-Second Melody</div>
+              <div class="melody-listeners" id="live-activity">
+                <!-- Live activity feed will be populated by JavaScript -->
+              </div>
+            </div>
+          </div>
+          <div class="melody-stats">
+            <div class="melody-duration">1:00</div>
+          </div>
+        </div>
+        
+        <!-- Player -->
+        <div class="player-section">
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+          <div class="time-display">
+            <span id="current-time">0:00</span>
+            <span>1:00</span>
+          </div>
+        </div>
+        
+        <!-- Chat -->
+        <div class="chat-panel">
+          <div class="chat-header">
+            <h2 class="panel-title">
+              <span class="icon">💬</span>
+              Manifesting Melodies Community Chat
+            </h2>
+            <div class="online-badge">
+              <span class="pulse-dot"></span>
+              <span id="online-members">244</span> &nbsp;Members Online
+            </div>
+          </div>
+          
+          <div class="chat-messages" id="chat-container">
+            <!-- Chat messages will be added here by JavaScript -->
+          </div>
+          
+          <div class="chat-input-container">
+            <input type="text" placeholder="Share your manifestation journey..." disabled>
+            <button>Share</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
